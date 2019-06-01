@@ -1,0 +1,127 @@
+body { margin: 0; color: #666; font: normal 18px/28px Helvetica, Arial, sans-serif; background: #fff;}
+.clear { clear: both;}
+p { margin: 0; padding: 10px 0;}
+a { color: #0000ff; text-decoration: underline;}
+a:hover { color: #7777ff;}
+a img { border: none;}
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: bold; color: #000;}
+h1 { padding: 40px 0 24px; line-height: 1.4em;}
+h2 { padding: 0 0 12px;}
+strong { font-weight: bold;}
+em { font-style: italic;}
+form, menu, iframe { display: block; margin: 0; padding: 0; border: none;}
+ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
+* { outline: none;}
+
+.resize {
+	width: 960px;
+	margin: 0 auto;
+}
+.name p {
+	font-size: 28px;
+	font-weight: bold;
+	color:#000;
+}
+p.form_1 textarea {
+	border: 1px solid #afafaf;
+}
+
+input.button {
+	border: 1px solid #a9a9a9;
+	padding: 3px 5px;
+	font-weight: 500;
+	font-size: 15px;
+	background: linear-gradient(to top, #dedede, #f6f6f6);
+}
+.width {
+	width: 280px;
+	border: 1px solid #afafaf;
+}
+
+
+.forms_2 td {
+	font-size: 16px;
+	color: #000;
+
+}
+.forms_2 td.message {
+	padding-bottom: 76px;
+}
+.forms_2 input.info {
+	border: 1px solid #aeaeae;
+	width: 280px;
+}
+.forms_2 textarea {
+	width: 280px;
+	border:1px solid #aeaeae;
+}
+
+
+.forms_3 span {
+	font-size: 16px;
+	color: #000;
+	width: 150px;
+	display: inline-block;
+}
+input.shadow {
+	width: 280px;
+}
+.form_text:focus {
+	box-shadow: 2px 2px 5px #c3ffbd;
+	background-color: #fced9a;
+}
+.forms_3 input.button {
+	margin-left: 156px;
+}
+
+
+input.form_green {
+	border-radius: 10px;
+	border: 1px solid #32d611;
+}
+.form_green,.form_width:focus {
+	border-color: #00f;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgb(255, 255, 255);
+}
+.form_green, .form_blue {
+	height: 22px;
+}
+.form_width {
+	width: 280px;
+	margin-left: 20px;
+}
+.forms_5 p {
+	color: #000;
+	font-size: 16px;
+}
+input.icon {
+	background: url(../img/icon_03.png) no-repeat center left;
+	padding-left:10px;
+}
+textarea.form_width {
+	margin-left: 140px;
+	margin-top: -47px;
+}
+.blue_button {
+	background: linear-gradient(to top, #3e5dfb, #9fc0ff);
+	padding: 7px 16px;
+	border:none;
+	margin-left: 141px;
+	color: #c3effe;
+	font-size: 16px;
+}
+
+
+
+
+
+
+.circle {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 50%;
+	background: #eee;
+	border: 1px solid #b1b1b1;
+	padding-left: 6px;
+}

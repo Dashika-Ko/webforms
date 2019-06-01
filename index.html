@@ -8,104 +8,218 @@
 		<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="forms_1">
-		<div class="name_1">
-			<p>Form 1. Placeholders.</p>
+	<div class="resize">
+		<div class="forms_1">
+			<div class="name">
+				<p>Form 1. Placeholders.</p>
+			</div>
+			<div class="form_1">
+				<form>
+					<p>
+						<label><input class="width"type="text" placeholder="Input your Name"></label>
+					</p>
+					<p>
+						<label><input class="width"type="E-mail" placeholder="Input your E-mail"></label>
+					</p>
+					<p>
+						<label><input class="width"type="password" placeholder="Input Password"></label>
+					</p>
+					<p class="form_1">
+						<textarea rows="5" cols="36" name="message" placeholder="Input Message"></textarea>
+					</p>
+					<p>
+						<input class="button"type="submit" value="Submit">
+					</p>
+				</form>
+			</div>
 		</div>
-		<div class="form_1">
+		<div class="forms_2">
+			<div class="name">
+				<p>Form 2. In Table.</p>
+			</div>
+			<div class="form_2">
+				<table>
+					<tr>
+						<td>Input your Name</td>
+						<td>
+							<label><input class="info" type="text" name="name"></label>
+						</td>
+					</tr>
+					<tr>
+						<td>Input your E-mail</td>
+						<td>
+							<label><input class="info" type="E-mail" name="E-mail"></label>
+						</td>
+					</tr>
+					<tr>
+						<td>Input Password</td>
+						<td>
+							<label><input class="info" type="password" name="Password" disabled="disabled"></label>
+						</td>
+					</tr>
+					<tr>
+						<td class="message">Input Message</td>
+						<td>
+							<textarea rows="5" cols="30" disabled="disabled"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td >
+							<input class="button"type="button" value="Submit">
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="forms_3">
+			<div class="name">
+				<p>Form 3. Without table.</p>
+			</div>
+			<div class="form_3">
+				<form>
+					<p>
+						<label>
+							<span>Input your Name</span>
+							<input class="shadow form_text" type="text" name="name">
+						</label>
+					</p>
+					<p>
+						<label>
+							<span>Input your E-mail</span>
+							<input class="shadow form_text" type="E-mail" name="E-mail">
+						</label>
+					</p>
+					<p>
+						<label>
+							<span>Input Password</span>
+							<input class="shadow form_text" type="password" name="password">
+						</label>
+					</p>
+					<p>
+						<label>
+							<span>Input Message</span>
+							<input class="shadow form_text" type="text" name="message">
+						</label>
+					</p>
+					<p>
+						<input class="button" type="submit" value="Submit" name="Submit">
+					</p>
+				</form>
+			</div>
+		</div>
+		<div class="forms_4">
+			<div class="name">
+				<p>Form 4. In fixed block</p>
+			</div>
+		</div>
+		<div class="forms_5">
+			<div class="name">
+				<p>Form 5. With styles.</p>
+			</div>
 			<form>
-				<p>
-					<label><input type="text" placeholder="Input your Name"></label>
-				</p>
-				<p>
-					<label><input type="E-mail" placeholder="Input your E-mail"></label>
-				</p>
-				<p>
-					<label><input type="password" placeholder="Input Password"></label>
-				</p>
-				<p>
-					<textarea rows="5" cols="30" name="message" placeholder="Input Message"></textarea>
-				</p>
-				<p>
-					<input type="button" value="Submit">
-				</p>
+				<p><label>Input your Name <input class="form_green icon form_width" "type="name" name="name"></label></p>
+				<p><label>Input your E-mail<input class="form_blue form_width" "type="E-mail" name="E-mail"></label></p>
+				<p>Input Message</p>
+				<p><textarea rows="5" cols="20" class="form_width" ></textarea></p>
+				<p><input  class="blue_button"type="Submit" name="send" value="Send"></p>
 			</form>
 		</div>
-	</div>
-	<div class="forms_2">
-		<div class="name_2">
-			<p>Form 2. In Table.</p>
+		<div class="forms_6">
+					<div class="name">
+						<p>Form 6. Search.</p>
+					</div>
+					<form>
+						<p>
+							<input type="search" name="search">
+							<input type="submit" value="Search">
+						</p>
+						<p>
+							<input type="search" name="search" placeholder="Search...">
+							<input class="circle"type="submit" value="Search">
+						</p>
+						<p>
+							<input type="search" name="search" placeholder="Search...">
+						</p>
+					</form>
 		</div>
-		<div class="form_2">
+		<div class="forms_7">
+			<div class="name">
+				<p>Form 7. Checkboxes and Radiobuttons.</p>
+			</div>
+			<form>
+				<p>
+					<input type="checkbox" name="option1" value="a1">I like horses<br>
+					<input type="checkbox" name="option2" value="a2">I like unicorns<br>
+					<input type="checkbox" name="option3" value="a3">I like pegasus<br>
+					<input type="checkbox" name="option4" value="a4">Colored ponies (do not discuss)<br>
+				</p>
+			</form>
+			<fieldset>
+				<legend>Animals</legend>
+				<p><input name="animals" type="radio" value="horses"> Horse is the best</p>
+				<p><input name="animals" type="radio" value="unicorns"> Unicorn is the best</p>
+				<p><input name="animals" type="radio" value="pegasus"> Pegasus is the best</p>
+				<p><input name="animals" type="radio" value="turtle">Sorry, but your turtle was died</p>
+			</fieldset>
+			<fieldset>
+				<legend>Al</legend>
+				<p><input name="aaa" type="radio" value="R2D2"> R2D2</p>
+				<p><input name="aaa" type="radio" value="GLaDOS"> GLaDOS</p>
+				<p><input name="aaa" type="radio" value="SkyNet"> SkyNet</p>
+				<p><input name="aaa" type="radio" value="viki">V.I.K.I.</p>
+			</fieldset>
 			<table>
 				<tr>
-					<td>Input your Name</td>
+					<th rowspan="2">Food</th><th>Rating</th>
+				</tr>
+				<tr>
+					<td>1 2 3 4</td>
+				</tr>
+				<tr>
+					<td>Vareniks</td>
 					<td>
-						<label><input type="text" name="name"></label>
+						<input name="aaa" type="radio" value="1">
+						<input name="aaa" type="radio" value="2">
+						<input name="aaa" type="radio" value="3">
+						<input name="aaa" type="radio" value="4">
+						<input name="aaa" type="radio" value="5">
 					</td>
 				</tr>
 				<tr>
-					<td>Input your E-mail</td>
+					<td>Borsch</td>
 					<td>
-						<label><input type="E-mail" name="E-mail"></label>
+						<input name="aaa" type="radio" value="1">
+						<input name="aaa" type="radio" value="2">
+						<input name="aaa" type="radio" value="3">
+						<input name="aaa" type="radio" value="4">
+						<input name="aaa" type="radio" value="5">
 					</td>
 				</tr>
 				<tr>
-					<td>Input Password</td>
+					<td>Hot Dog</td>
 					<td>
-						<label><input type="password" name="Password"></label>
+						<input name="aaa" type="radio" value="1">
+						<input name="aaa" type="radio" value="2">
+						<input name="aaa" type="radio" value="3">
+						<input name="aaa" type="radio" value="4">
+						<input name="aaa" type="radio" value="5">
 					</td>
 				</tr>
 				<tr>
-					<td>Input Message</td>
+					<td>Tiramisu</td>
 					<td>
-						<textarea rows="5" cols="30"></textarea>
-					</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td>
-						<input type="button" value="Submit">
+						<input name="aaa" type="radio" value="1">
+						<input name="aaa" type="radio" value="2">
+						<input name="aaa" type="radio" value="3">
+						<input name="aaa" type="radio" value="4">
+						<input name="aaa" type="radio" value="4">
 					</td>
 				</tr>
 			</table>
 		</div>
-	</div>
-	<div class="forms_3">
-		<div class="name_3">
-			<p>Form 3. Without table.</p>
-		</div>
-		<div class="form_3">
-			<form>
-				<p>
-					<label>
-						<span>Input your Name</span>
-						<input type="text" name="name">
-					</label>
-				</p>
-				<p>
-					<label>
-						<span>Input your E-mail</span>
-						<input type="E-mail" name="E-mail">
-					</label>
-				</p>
-				<p>
-					<label>
-						<span>Input Password</span>
-						<input type="password" name="password">
-					</label>
-				</p>
-				<p>
-					<label>
-						<span>Input Message</span>
-						<input type="text" name="message">
-					</label>
-				</p>
-				<p>
-					<input type="button" value="Submit" name="Submit">
-				</p>
-			</form>
-		</div>
+
+
 	</div>
 
 
